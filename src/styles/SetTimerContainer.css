@@ -1,0 +1,7 @@
+#setTimer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid black;
+  height: 100px;
+}
