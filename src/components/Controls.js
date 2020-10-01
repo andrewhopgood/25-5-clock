@@ -1,13 +1,41 @@
 import React, { useState } from "react";
 import "../styles/Controls.css";
 
-function Controls({ reset, playOrPauseTimer }) {
+function Controls({ resetAll, startCountdownTimer, stopCountdownTimer }) {
+  const [isTimerRunning, setIsTimerRunning] = useState(false);
+
+  const start = () => {
+    setIsTimerRunning(true); // User Interface change
+    startCountdownTimer(); // StartEvent
+  };
+
+  const stop = () => {
+    setIsTimerRunning(false); // User Interface change
+    stopCountdownTimer(); // StopEvent
+  };
+
+  const reset = () => {
+    setIsTimerRunning(false);
+    resetAll();
+  };
+
+  let playOrPauseButton = (
+    <button id="start_stop" onClick={start}>
+      Play
+    </button>
+  );
+  if (isTimerRunning) {
+    playOrPauseButton = (
+      <button id="start_stop" onClick={stop}>
+        Pause
+      </button>
+    );
+  }
+
   return (
     <div id="controls__container">
       <h1>Controls</h1>
-      <button id="start_stop" onClick={playOrPauseTimer}>
-        Start/Stop
-      </button>
+      {playOrPauseButton}
       <button onClick={reset} id="reset">
         Reset
       </button>

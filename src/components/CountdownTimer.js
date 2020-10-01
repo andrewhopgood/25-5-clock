@@ -1,7 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/CountdownTimer.css";
 
-function CountdownTimer({ currentTimer }) {
+function CountdownTimer({
+  currentTimer,
+  isPlaying,
+  setCurrentTimer,
+  breakTime,
+  sessionTime,
+  setIsSessionActive,
+  isSessionActive,
+}) {
   const formatTime = (currentTimer) => {
     let minutes = Math.floor(currentTimer / 60);
     let seconds = currentTimer % 60;
@@ -13,12 +21,17 @@ function CountdownTimer({ currentTimer }) {
     return `${minutes}:${seconds}`;
   };
 
+  let whichTimer = "Session Time";
+  if (!isSessionActive) {
+    whichTimer = "Break Time";
+  }
+
   return (
     <div id="countdown__timer">
       <div>
-        <h1 id="timer-label">Session</h1>
+        <h1 id="timer-label">{whichTimer}</h1>
+        <div id="time-left">{formatTime(currentTimer)}</div>
       </div>
-      <div id="time-left">{formatTime(currentTimer)}</div>
     </div>
   );
 }
