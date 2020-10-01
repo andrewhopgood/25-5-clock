@@ -58,7 +58,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 id="header__title">25 + 5 Clock </h1>
+      <h1 id="header__title">Pomodoro Clock </h1>
       <div id="setTimer__container">
         <SetBreakTimer breakTime={breakTime} setBreakTimer={setBreakTimer} />
         <SetSessionTimer

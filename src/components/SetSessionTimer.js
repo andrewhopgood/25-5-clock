@@ -18,13 +18,15 @@ function SetSessionTimer({ sessionTime, setSessionTimer, setCurrentTimer }) {
   return (
     <div id="session-timer__container">
       <div id="session-label">Session Length</div>
-      <button id="session-increment" onClick={incrementSessionTimer}>
-        +
-      </button>
-      <button id="session-decrement" onClick={decrementSessionTimer}>
-        -
-      </button>
-      <div id="session-length">{sessionTime / 60}</div>
+      <div id="session_controls">
+        <button id="session-increment" onClick={incrementSessionTimer}>
+          +
+        </button>
+        <div id="session-length">{sessionTime / 60}</div>
+        <button id="session-decrement" onClick={decrementSessionTimer}>
+          -
+        </button>
+      </div>
     </div>
   );
 }

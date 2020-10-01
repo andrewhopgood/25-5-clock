@@ -1,9 +1,19 @@
 #countdown__timer {
-  border: 1px solid black;
+  border: 1px solid #ddd;
   display: flex;
   justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
   width: 400px;
   height: 150px;
+  border-radius: 100px;
+}
+
+#time-left {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }

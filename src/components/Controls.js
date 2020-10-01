@@ -34,7 +34,6 @@ function Controls({ resetAll, startCountdownTimer, stopCountdownTimer }) {
 
   return (
     <div id="controls__container">
-      <h1>Controls</h1>
       {playOrPauseButton}
       <button onClick={reset} id="reset">
         Reset
