@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/SetSessionTimer.css";
+import "../styles/SessionTime.css";
 
 function SetSessionTimer({ sessionTime, setSessionTimer, setCurrentTimer }) {
   const incrementSessionTimer = () => {
@@ -19,14 +19,13 @@ function SetSessionTimer({ sessionTime, setSessionTimer, setCurrentTimer }) {
     <div id="session-timer__container">
       <div id="session-label">Session Length</div>
       <div id="session_controls">
-      <button id="session-decrement" onClick={decrementSessionTimer}>
+        <button id="session-decrement" onClick={decrementSessionTimer}>
           -
         </button>
         <div id="session-length">{sessionTime / 60}</div>
         <button id="session-increment" onClick={incrementSessionTimer}>
           +
         </button>
-        
       </div>
     </div>
   );

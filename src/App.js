@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
 import CountdownTimer from "./components/CountdownTimer";
-import SetBreakTimer from "./components/SetBreakTimer";
-import SetSessionTimer from "./components/SetSessionTimer";
+import BreakTime from "./components/BreakTime";
+import SessionTime from "./components/SessionTime";
 import Controls from "./components/Controls";
 
 function App() {
@@ -60,8 +60,8 @@ function App() {
     <div className="App">
       <h1 id="header__title">Pomodoro Timer</h1>
       <div id="setTimer__container">
-        <SetBreakTimer breakTime={breakTime} setBreakTimer={setBreakTimer} />
-        <SetSessionTimer
+        <BreakTime breakTime={breakTime} setBreakTimer={setBreakTimer} />
+        <SessionTime
           sessionTime={sessionTime}
           setSessionTimer={setSessionTimer}
           setCurrentTimer={setCurrentTimer}
@@ -70,11 +70,6 @@ function App() {
 
       <CountdownTimer
         currentTimer={currentTimer}
-        isPlaying={isPlaying}
-        setCurrentTimer={setCurrentTimer}
-        breakTime={breakTime}
-        sessionTime={sessionTime}
-        setIsSessionActive={setIsSessionActive}
         isSessionActive={isSessionActive}
       />
       <Controls

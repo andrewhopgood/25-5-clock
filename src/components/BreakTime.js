@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/SetBreakTimer.css";
+import "../styles/BreakTime.css";
 
 function SetBreakTimer({ breakTime, setBreakTimer }) {
   const incrementBreakTimer = () => {
