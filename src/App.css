@@ -16,7 +16,7 @@ body {
 }
 
 .App {
-  width: 580px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
