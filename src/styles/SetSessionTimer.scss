@@ -1,0 +1,40 @@
+#session-timer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 175px;
+  font-weight: 700;
+}
+
+#session_controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#session-increment,
+#session-decrement {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 30px;
+}
+
+#session-length {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  font-size: 28px;
+}
+
+#session-label {
+  font-size: 18px;
+}

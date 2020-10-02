@@ -1,0 +1,38 @@
+#break-timer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 175px;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+#break_controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#break-increment,
+#break-decrement {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  font-size: 30px;
+}
+
+#break-length {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  font-size: 28px;
+}
+
+#break-label {
+  font-size: 18px;
+}

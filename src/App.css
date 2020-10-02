@@ -1,44 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 50px;
-  box-sizing: border-box;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(42, 105, 152, 1) 0%,
-    rgba(19, 165, 195, 1) 100%
-  );
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #2a6998), to(#13a5c3));
+  background: linear-gradient(90deg, #020024 0%, #2a6998 0%, #13a5c3 100%);
   font-family: "Fira Sans", sans-serif;
   color: #e3e3e3;
 }
 
 .App {
   width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(165, 165, 165);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #a5a5a5;
   padding: 15px;
   border-radius: 100px;
 }
 
 #header__title {
-  font-size: 44px;
+  font-size: 40px;
 }
 
 #setTimer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(19, 165, 195, 1);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #13a5c3;
   height: 40px;
   width: 60px;
   border: none;
@@ -50,5 +68,6 @@ button {
   border-radius: 50px;
   font-size: 16px;
   font-weight: 700;
-  border: 1px solid rgb(165, 165, 165);
+  border: 1px solid #a5a5a5;
 }
+/*# sourceMappingURL=App.css.map */

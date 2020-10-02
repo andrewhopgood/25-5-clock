@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  box-sizing: border-box;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(42, 105, 152, 1) 0%,
+    rgba(19, 165, 195, 1) 100%
+  );
+  font-family: "Fira Sans", sans-serif;
+  color: #e3e3e3;
+}
+
+.App {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(165, 165, 165);
+  padding: 15px;
+  border-radius: 100px;
+}
+
+#header__title {
+  font-size: 40px;
+}
+
+#setTimer__container {
+  display: flex;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(19, 165, 195, 1);
+  height: 40px;
+  width: 60px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: inherit;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid rgb(165, 165, 165);
+}
