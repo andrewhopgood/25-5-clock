@@ -10,7 +10,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 10px;
-  width: 150px;
+  width: 125px;
   font-weight: 700;
   font-family: inherit;
 }
@@ -41,7 +41,7 @@
           align-items: center;
   width: 25px;
   height: 25px;
-  border-radius: 25px;
+  border-radius: 50%;
   font-size: 30px;
 }
 
@@ -60,6 +60,6 @@
 }
 
 #break-label {
-  font-size: 18px;
+  font-size: 16px;
 }
 /*# sourceMappingURL=SetBreakTimer.css.map */

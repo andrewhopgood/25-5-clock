@@ -44,7 +44,7 @@
   font-weight: 700;
   font-family: inherit;
   font-size: 30px;
-  border-radius: 25px;
+  border-radius: 50%;
 }
 
 #session-length {
@@ -62,6 +62,6 @@
 }
 
 #session-label {
-  font-size: 18px;
+  font-size: 16px;
 }
 /*# sourceMappingURL=SetSessionTimer.css.map */
