@@ -29,7 +29,6 @@
 
 #break-increment,
 #break-decrement {
-  display: block;
   margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,7 +41,7 @@
           align-items: center;
   width: 25px;
   height: 25px;
-  border-radius: 50%;
+  border-radius: 25px;
   font-size: 30px;
 }
 
