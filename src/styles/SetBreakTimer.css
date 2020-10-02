@@ -5,6 +5,7 @@
   margin: 10px;
   width: 250px;
   font-weight: 700;
+  font-family: inherit;
 }
 
 #break_controls {
@@ -21,9 +22,7 @@
   align-items: center;
   width: 35px;
   height: 35px;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: inherit;
+  font-size: 30px;
 }
 
 #break-length {
@@ -31,5 +30,9 @@
   justify-content: center;
   align-items: center;
   width: 35px;
-  font-size: 30px;
+  font-size: 28px;
+}
+
+#break-label {
+  font-size: 18px;
 }
