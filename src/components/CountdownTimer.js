@@ -26,11 +26,20 @@ function CountdownTimer({
     whichTimer = "Break Time";
   }
 
+  let lessThanTenSeconds = <div id="time-left">{formatTime(currentTimer)}</div>;
+  if (currentTimer < 10) {
+    lessThanTenSeconds = (
+      <div id="time-left" style={{ color: "#e44c4c" }}>
+        {formatTime(currentTimer)}
+      </div>
+    );
+  }
+
   return (
     <div id="countdown__timer">
       <div>
         <h1 id="timer-label">{whichTimer}</h1>
-        <div id="time-left">{formatTime(currentTimer)}</div>
+        {lessThanTenSeconds}
       </div>
     </div>
   );
