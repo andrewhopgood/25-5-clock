@@ -20,13 +20,13 @@ function Controls({ resetAll, startCountdownTimer, stopCountdownTimer }) {
   };
 
   let playOrPauseButton = (
-    <button id="start_stop" onClick={start}>
+    <button id="btn__start__stop" onClick={start}>
       Play
     </button>
   );
   if (isTimerRunning) {
     playOrPauseButton = (
-      <button id="start_stop" onClick={stop}>
+      <button id="btn__start__stop" onClick={stop}>
         Pause
       </button>
     );
@@ -35,7 +35,7 @@ function Controls({ resetAll, startCountdownTimer, stopCountdownTimer }) {
   return (
     <div id="controls__container">
       {playOrPauseButton}
-      <button onClick={reset} id="reset">
+      <button onClick={reset} id="btn__reset">
         Reset
       </button>
     </div>

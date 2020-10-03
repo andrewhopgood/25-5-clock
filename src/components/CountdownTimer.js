@@ -18,19 +18,21 @@ function CountdownTimer({ currentTimer, isSessionActive }) {
     whichTimer = "Break Time";
   }
 
-  let lessThanTenSeconds = <div id="time-left">{formatTime(currentTimer)}</div>;
+  let lessThanTenSeconds = (
+    <div id="time_countdown">{formatTime(currentTimer)}</div>
+  );
   if (currentTimer < 10) {
     lessThanTenSeconds = (
-      <div id="time-left" style={{ color: "#e44c4c" }}>
+      <div id="time_countdown" style={{ color: "#e44c4c" }}>
         {formatTime(currentTimer)}
       </div>
     );
   }
 
   return (
-    <div id="countdown__timer">
+    <div id="timer__countdown__container">
       <div>
-        <h1 id="timer-label">{whichTimer}</h1>
+        <h1 id="timer__name">{whichTimer}</h1>
         {lessThanTenSeconds}
       </div>
     </div>

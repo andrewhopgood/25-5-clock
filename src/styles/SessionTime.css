@@ -14,7 +14,7 @@
   font-weight: 700;
 }
 
-#session_controls {
+#session-timer__controls {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,8 +26,8 @@
           align-items: center;
 }
 
-#session-increment,
-#session-decrement {
+#session-timer__increment,
+#session-timer__decrement {
   margin: 10px 5px;
   width: 35px;
   height: 35px;
@@ -35,7 +35,7 @@
   font-size: 26px;
 }
 
-#session-length {
+#session-timer__length {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,7 +49,7 @@
   font-size: 28px;
 }
 
-#session-label {
+#session-timer__name {
   font-size: 16px;
 }
-/*# sourceMappingURL=SetSessionTimer.css.map */
+/*# sourceMappingURL=SessionTime.css.map */

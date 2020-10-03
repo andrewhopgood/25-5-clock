@@ -14,7 +14,7 @@
   font-weight: 700;
 }
 
-#break_controls {
+#break-timer__controls {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,8 +26,8 @@
           align-items: center;
 }
 
-#break-increment,
-#break-decrement {
+#break-timer__increment,
+#break-timer__decrement {
   margin: 10px 5px;
   width: 35px;
   height: 35px;
@@ -35,7 +35,7 @@
   font-size: 26px;
 }
 
-#break-length {
+#break-timer__length {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,7 +49,7 @@
   font-size: 28px;
 }
 
-#break-label {
+#break-timer__name {
   font-size: 16px;
 }
-/*# sourceMappingURL=SetBreakTimer.css.map */
+/*# sourceMappingURL=BreakTime.css.map */
