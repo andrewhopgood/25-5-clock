@@ -13,8 +13,8 @@
   margin-bottom: 10px;
 }
 
-#reset,
-#start_stop {
+#btn__reset,
+#btn__start__stop {
   border-radius: 25px;
   height: 40px;
   width: 75px;

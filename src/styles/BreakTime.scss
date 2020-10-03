@@ -7,14 +7,14 @@
   font-weight: 700;
 }
 
-#break_controls {
+#break-timer__controls {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#break-increment,
-#break-decrement {
+#break-timer__increment,
+#break-timer__decrement {
   margin: 10px 5px;
   width: 35px;
   height: 35px;
@@ -22,7 +22,7 @@
   font-size: 26px;
 }
 
-#break-length {
+#break-timer__length {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +30,6 @@
   font-size: 28px;
 }
 
-#break-label {
+#break-timer__name {
   font-size: 16px;
 }

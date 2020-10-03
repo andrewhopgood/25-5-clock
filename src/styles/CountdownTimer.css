@@ -1,14 +1,14 @@
-#countdown__timer {
+#timer__countdown__container {
   border: 1px solid #a5a5a5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 275px;
@@ -16,19 +16,19 @@
   border-radius: 100px;
 }
 
-#time-left {
+#time_countdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-#timer-label {
+#timer__name {
   margin-top: 25px;
   margin-bottom: 5px;
 }
