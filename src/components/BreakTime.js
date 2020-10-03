@@ -15,13 +15,13 @@ function SetBreakTimer({ breakTime, setBreakTimer }) {
   };
   return (
     <div id="break-timer__container">
-      <div id="break-label">Break Length</div>
-      <div id="break_controls">
-        <button id="break-decrement" onClick={decrementBreakTimer}>
+      <div id="break-timer__name">Break Length</div>
+      <div id="break-timer__controls">
+        <button id="break-timer__decrement" onClick={decrementBreakTimer}>
           -
         </button>
-        <div id="break-length">{breakTime / 60}</div>
-        <button id="break-increment" onClick={incrementBreakTimer}>
+        <div id="break-timer__length">{breakTime / 60}</div>
+        <button id="break-timer__increment" onClick={incrementBreakTimer}>
           +
         </button>
       </div>
