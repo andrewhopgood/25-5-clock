@@ -1,16 +1,16 @@
-#countdown__timer {
+#timer__countdown__container {
   border: 1px solid rgb(165, 165, 165);
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 275px;
   height: 130px;
-  border-radius: 100px;
+  border-radius: 30px;
 }
 
-#time-left {
+#time_countdown {
   display: flex;
   justify-content: center;
   font-size: 50px;
@@ -18,7 +18,7 @@
   margin-bottom: 20px;
 }
 
-#timer-label {
+#timer__name {
   margin-top: 25px;
   margin-bottom: 5px;
 }

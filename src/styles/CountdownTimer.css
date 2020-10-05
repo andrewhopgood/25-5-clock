@@ -4,16 +4,16 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 275px;
   height: 130px;
-  border-radius: 100px;
+  border-radius: 30px;
 }
 
 #time_countdown {
@@ -21,8 +21,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
